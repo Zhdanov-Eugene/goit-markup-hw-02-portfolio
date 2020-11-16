@@ -222,3 +222,19 @@ ul {
   color: var(--accent-color);
 }
 /* finish */
+
+/* СТИЛИ ПОРТФОЛИО */
+
+.content-selector {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.content-selector .filtres:hover,
+.content-selector .filtres:focus,
+.content-selector .filtres:active {
+  background-color: var(--accent-color);
+}
